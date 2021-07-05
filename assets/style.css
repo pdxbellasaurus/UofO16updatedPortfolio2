@@ -1,71 +1,81 @@
 :root {
-    --txtcolor: #fff;
-    --subtxt: #8bc24a;
-    --rawrgreen: #009688;
-    --rawrblu: #039be5;
-    --bgcolor: #00517c;
-    --yellow: #ffeb38;
-    --grycolor: #cfd8dc;
-    --linkedin: #0077b5; 
-    --github: #333;
-  }
-  h1.subtitle {
-    color: #8bc24a
-  }
+  --txtcolor: #fff;
+  --subtxt: #8bc24a;
+  --rawrgreen: #009688;
+  --rawrblu: #039be5;
+  --bgcolor: #00517c;
+  --yellow: #ffeb38;
+  --grycolor: #cfd8dc;
+  --linkedin: #0077b5;
+  --github: #333;
+}
+
+h1.subtitle {
+  color: #8bc24a;
+}
 
 body.bgcolor,
-.tile.bgcolor, 
+.tile.bgcolor,
 nav.navbar {
-    background: var(--bgcolor);
-  }
+  background: var(--bgcolor);
+}
 
-  p.clever{
-    color: var(--rawrgreen);
-    font-style: italic;
-    font-size: 1.5rem;
-    text-decoration: underline overline var(--rawrblu);
-  }
-  
-  .hero:hover #clever {
-    display:inline;
-  }
-  
-  #clever {
-    display:none;
-    }
+p.clever {
+  color: var(--rawrgreen);
+  font-style: italic;
+  font-size: 1.5rem;
+  text-decoration: underline overline var(--rawrblu);
+}
 
-.tile.img1{
+.hero:hover #clever {
+  display: inline;
+}
+
+#clever {
+  display: none;
+}
+
+.tile.img1 {
   background-image: url(img1.jpg);
 }
-.tile.img2{
+.tile.img2 {
   background-image: url(img2.jpg);
 }
-.tile.img3{
+.tile.img3 {
   background-image: url(img3.jpg);
 }
-.tile.img4{
+.tile.img4 {
   background-image: url(img4.jpg);
 }
-.tile.img5{
-    background-image: url(img5.jpg);
+.tile.img5 {
+  background-image: url(img5.jpg);
 }
-.tile.border{
+.tile.border {
   border: 5px solid #ffeb38;
+}
+
+.custom-bg-lt-blue {
+  background: var(--rawrblu);
+}
+.custom-bg-lt-green {
+  background-color: var(--subtxt);
 }
 
 .bellapic {
   border-radius: 5px 20px 5px;
   border: 6px solid var(--grycolor);
 }
+
 i {
-color: var(--rawrgreen);
+  color: var(--rawrgreen);
 }
 
 button {
   background-color: #0077b5;
-    border: 2px solid #0077b5;
-    text-align: left;
+  border: 2px solid #0077b5;
+  text-align: left;
 }
-.tile.side{
+
+.tile.side {
   border-right: 4px solid var(--grycolor);
 }
